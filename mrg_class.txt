@@ -1,0 +1,34 @@
+git branch
+
+ to know all the existing branches
+ 
+ git branch new_branch_name
+  
+  
+  git branch new-branch-name: Only creates the branch without switching to it.
+ 
+  git checkout new-branch-name: Switches to an existing branch.
+  
+  git checkout -b new-branch-name: Creates a new branch and switches to it in one step
+ 
+ 
+ git switch
+ 
+ git checkout
+ 
+ does the same work
+ 
+ 
+ 
+ 
+ 
+ -->Safely Delete a Branch:
+Use this command to delete a local branch that has been merged into the current branch or any other specified branch.
+
+git branch -d branch-name
+
+
+-->Force Delete a Branch:
+Use this command to force delete a local branch that has not been merged. Be cautious with this command as it can lead to data loss.
+
+git branch -D branch-name
